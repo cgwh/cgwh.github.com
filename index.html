@@ -1,47 +1,51 @@
 <!DOCTYPE html>
 <html>
-    <head lang="en">
-        <meta charset="utf-8"/>
-        <title>cg</title>
-        <link rel="stylesheet" type="text/css" href="stylesheets/index.css"/>
-    </head>
-    <body>
-        <div class="d_content">
-            <div class="d_content_above">
-                <div class="d_content_portroit">
-                    <div class="d_content_portroit_circle">
-                        <img class="next_img" src="images/portroit2.jpg"/>
-                        <img class="first_img" src="images/portroit1.jpg"/>
-<!--
-                        <a href="#"><img src="res/portroit1.jpg"s onmouseover="this.src='res/portroit2.jpg'" onmouseout="this.src='res/portroit1.jpg'"/>
-                        </a>
--->
-                    </div>
-                </div>
-            </div>
-            <div class="d_content_middle">
-                <div class="d_content_show">
-                    <p class="p_name">CG错过</p>
-                    <br/>
-                    <br/>
-                    <p class="p_signature">面向对象面向君,不负代码不负卿</p>
-                    <br/>
-                    <br/>
-                    <div class="div_p_introduce">
-                        <span class="line_top"></span>
-                        <span class="line_left"></span>
-                        <span class="line_right"></span>
-                        <span class="line_bottom"></span>
-                        <p class="p_introduc">编程爱好者,争取以后好好当一名程序猿
-                        ,我想大部分人看到
-                        <br/>"程序猿"字眼都会想到死宅呆板等负面形象的词语,这很正常,<br/>因为大部分程序猿就是这样,可惜我不是.我喜欢打篮球,喜欢
-                        <br/>健身,如果空闲时间长我会出去旅游,我不喜欢宅.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="d_content_below">
-                <a href="work.html"><button class="bt_into"><p class="bt_text">去看看</p></button></a>
+<head lang="en">
+    <meta charset="utf-8"/>
+    <title>cg</title>
+    <link rel="stylesheet" type="text/css" href="stylesheets/index.css"/>
+    <script src="javascripts/indexJS.js"></script>
+</head>
+<body>
+<div id="d_content">
+    <div id="d_content_above">
+        <div id="d_content_portroit">
+            <div id="d_content_portroit_circle">
+                <img class="next_img" src="images/portroit2.jpg"/>
+                <img class="first_img" src="images/portroit1.jpg"/>
             </div>
         </div>
-    </body>
+    </div>
+    <div id="d_content_middle">
+        <div id="d_content_show">
+            <p id="p_name">CG错过</p>
+            <br/>
+            <br/>
+            <p id="p_signature">面向对象面向君,不负代码不负卿</p>
+            <br/>
+            <br/>
+            <div id="div_p_introduce">
+                <span class="line_top"></span>
+                <span class="line_left"></span>
+                <span class="line_right"></span>
+                <span class="line_bottom"></span>
+                <p class="p_introduce">编程爱好者,争取以后好好当一名程序猿
+                    ,我想大部分人看到
+                    <br/>"程序猿"字眼都会想到死宅呆板等负面形象的词语,这很正常,<br/>因为大部分程序猿就是这样,只是我不是,我喜欢打篮球,喜欢
+                    <br/>健身,如果空闲时间长我会出去旅游,我不喜欢宅.</p>
+            </div>
+        </div>
+    </div>
+    <div id="d_content_below">
+        <a href="work.html"><button id="bt_into"><p class="bt_text">去看看</p></button></a>
+    </div>
+    <script>
+        if(window.innerWidth > window.innerHeight){
+            document.write("<style type='text/css'> #bt_into{margin-top: 40px;}")
+        }else{
+            document.write("<style type='text/css'> #bt_into{margin-bottom: 20px;}")
+        }
+    </script>
+</div>
+</body>
 </html>
