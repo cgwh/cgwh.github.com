@@ -1,0 +1,203 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
+    height: 800px;
+    background-color: #314b5f;
+}
+.d_content{
+    width: 80%;
+    height: 100%;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+}
+.d_content_above{
+    width: 100%;
+    height: 240px;
+    background-color: transparent;
+}
+.d_content_middle{
+    width: 100%;
+    height: 330px;
+    background-color: transparent;
+}
+.d_content_below{
+    width: 100%;
+    height: 230px;
+/*    margin-top: 60px;*/
+    background-color: transparent;
+}
+.d_content_portroit{
+    width: 240px;
+    height: 240px;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 1px;
+/*    border-radius: 240px;*/
+    background-color: transparent;
+    margin: 0px auto;
+}
+.d_content_portroit_circle{
+    width: 240px;
+    height: 240px;
+    border-radius: 240px;
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 2px;
+    position: relative;
+    transition: 1s ease;
+    -webkit-transition: 1s ease;
+}
+.d_content_portroit_circle:before{ /*定义内阴影*/
+    width: 240px;
+    height: 240px;
+    border-radius: 240px;
+    position: absolute;
+    display: block;
+    content: "";
+    box-shadow: inset 0px 0px 30px rgba(255,255,255,0.3);
+}
+.d_content_portroit_circle,img{
+    border-radius: 50%;           /*将portroit盒子里的img设置圆角50%*/
+    transition: 1s ease;
+    -webkit-transition: 1s ease;
+}
+.next_img{
+    width: 10px;
+    opacity: 0;
+/*    transform: scale(0.1);*/
+/*    -webkit-transform: scale(0.1);*/
+
+}
+.first_img{
+    width:240px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+.d_content_portroit_circle:hover{
+    box-shadow: 0px 0px 30px #ffffff;
+    transform: scale(0.90);         /*定义图片的边框样式*/
+    -webkit-transform: scale(0.90);
+    width: 40px;
+/*    height: 40px;*/
+    opacity: 1;
+}
+.d_content_portroit_circle:hover .first_img{
+    width: 50px;             /*图片移动的距离*/
+    transform: scale(0.25);
+    -webkit-transform: scale(0.25);
+}
+.d_content_portroit_circle:hover .next_img{
+    width: 240px;
+    opacity: 1;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    box-shadow: 0px 0px 16px #ffffff;
+}
+.d_content_show{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 30px;
+}
+.p_name{
+    color: #ffffff;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 45px;
+    text-align: center;
+}
+.p_signature{
+    color: #ebebeb;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 25px;
+    text-align: center;
+}
+.div_p_introduce{
+    width: 500px;
+    height: 160px;
+/*    border: 2px solid #000000;*/
+    margin-left: 21.5%;
+/*    background-color: aqua;*/
+    position: absolute;
+}
+.div_p_introduce p{
+    color: #d3d5c8;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    text-align: center;
+    line-height: 38px;
+}
+span{
+    position: absolute;
+    display: block;
+    background-color: #16c4a1;
+    transition: 0.8s ease;
+    -webkit-transition: 2s ease;
+}
+.line_top{
+    width: 0px;
+    height: 2px;
+    left: 0px;
+    top: -2px;
+}
+.div_p_introduce:hover .line_top{
+    width: 502px;
+}
+.line_left{
+    width: 2px;
+    height: 0px;
+    left: -2px;
+    top: -2px;
+}
+.div_p_introduce:hover .line_left{
+    height: 164px;
+}
+.line_right{
+    width: 2px;
+    height: 0px;
+    right: -2px;
+    bottom: -2px;
+}
+.div_p_introduce:hover .line_right{
+    height: 164px;
+}
+.line_bottom{
+    width: 0px;
+    height: 2px;
+    right: -2px;
+    bottom: -2px;
+}
+.div_p_introduce:hover .line_bottom{
+    width: 503px;
+}
+.bt_into{
+    width: 18%;
+    height: 50px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #16c4a1;
+    border-radius: 3px;
+    background-color: transparent;
+    margin-top: 30px;
+    margin-left: 41%;
+    transition: 0.5s ease;
+    -webkit-transition: 0.5s ease;
+}
+.bt_text{
+    color: #d3d5c8;
+    font-size: 19px;
+    font-family: sans-serif;
+}
+.bt_into:hover{
+    box-shadow: 0px 0px 20px #ffffff;
+    transform: scale(1.02);
+    -webkit-transform: scale(1.02);
+}
