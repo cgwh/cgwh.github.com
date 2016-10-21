@@ -164,8 +164,9 @@ function choiceShow() {
 
 function showHello() {
     var showHelloDiv = document.getElementById("div_showHello");
+    var maxWidths = window.innerWidth;
     showHelloDiv.style.color = "#d3d5c8";
-    showHelloDiv.style.fontSize = "62px";
+    showHelloDiv.style.fontSize = maxWidths/36 + 'px';
     showHelloDiv.innerText = choiceShow();
 }
 
@@ -173,9 +174,9 @@ function setSize() {
     var maxWidth = window.innerWidth,maxHeight = window.innerHeight;
     // if(maxWidth > maxHeight){
         document.getElementById('div_cover').style.height = maxHeight + 'px';
-        document.getElementById('div_recently').style.height = maxHeight + 40 + 'px';
+//        document.getElementById('div_recently').style.height = maxHeight + 40 + 'px';
         document.getElementById('div_hobby').style.height = maxHeight + 40 + 'px';
-        document.getElementById('div_contact').style.height = maxHeight/2 + 'px';
+        document.getElementById('div_linkOther').style.height = maxHeight/1.5 + 'px';
         document.getElementById('div_showHello').style.width = maxWidth/4 + 'px';
         document.getElementById('div_showHello').style.height = maxHeight/5 + 'px';
         document.getElementById('div_arrow').style.width = 80 + 'px';
