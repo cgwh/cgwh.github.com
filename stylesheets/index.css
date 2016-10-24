@@ -40,16 +40,19 @@ body{
     }
     #p_signature{
         font-size: 160%;
+/*        letter-spacing: 0.8px;*/
     }
     #div_p_introduce{
         width: 70%;
         height: 64%;
         left: 15%;
-        top:  21.5%;
+        top:  20%;
     }
     .p_introduce{
-        font-size: 125%;
-        line-height: 190%;
+        font-size: 116%;
+        text-indent: 6%;
+        letter-spacing: 1.5px;
+        line-height: 200%;
         position: absolute;
         top: 1.5%;
     }
@@ -103,12 +106,14 @@ body{
     }
     #div_p_introduce{
         width: 70%;
-        height: 60%;
+        height: 64%;
         left: 15%;
-        top: 25%;
+        top: 21%;
     }
     .p_introduce{
-        font-size: 118%;
+        font-size: 113%;
+        text-indent: 8%;
+        letter-spacing: 1.5px;
         line-height: 180%;
         top: 2%;
     }
@@ -162,13 +167,15 @@ body{
     }
     #div_p_introduce{
         width: 70%;
-        height: 60%;
+        height: 65%;
         left: 15%;
-        top: 25%;
+        top: 20%;
     }
     .p_introduce{
-        font-size: 110%;
-        line-height: 180%;
+        font-size: 108%;
+        text-indent: 8%;
+        letter-spacing: 1.5px;
+        line-height: 200%;
         top: 2.5%;
     }
     #d_content_below_bt{
@@ -221,13 +228,15 @@ body{
     }
     #div_p_introduce{
         width: 70%;
-        height: 60%;
+        height: 70%;
         left: 15%;
-        top: 28%;
+        top: 16%;
     }
     .p_introduce{
-        font-size: 110%;
-        line-height: 158%;
+        font-size: 103%;
+        text-indent: 7%;
+        letter-spacing: 1.5px;
+        line-height: 200%;
         top: 1.5%;
     }
     #d_content_below_bt{
@@ -278,13 +287,15 @@ body{
     }
     #div_p_introduce{
         width: 80%;
-        height: 60%;
+        height: 65%;
         left: 10%;
-        top: 28%;
+        top: 23%;
     }
     .p_introduce{
-        font-size: 106%;
-        line-height: 155%;
+        font-size: 94%;
+        text-indent: 7%;
+        letter-spacing: 1.5px;
+        line-height: 180%;
         top: 5%;
     }
     #d_content_below_bt{
@@ -334,13 +345,15 @@ body{
     }
      #div_p_introduce{
         width: 96%;
-        height: 60%;
-        top: 26%;
+        height: 69%;
+        top: 19%;
         left: 2%;
     }
     .p_introduce{
-        font-size: 100%;
-        line-height: 150%;
+        font-size: 85%;
+        text-indent: 7%;
+        letter-spacing: 1.5px;
+        line-height: 200%;
         top: 8%;
     }
     #d_content_below_bt{
