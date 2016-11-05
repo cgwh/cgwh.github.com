@@ -7,22 +7,25 @@ window.onload = function () {
     drawGalaxy();
     showHello();
 };
+window.onresize = function (){
+    clearAll();
+    drawGalaxy();
+}
 
 function drawGalaxy() {
     var divWidth = document.getElementById('div_cover').offsetWidth;
     var divHeight = document.getElementById('div_cover').offsetHeight;
-    var canvas = document.getElementById('canvas'),
-        ctx = canvas.getContext('2d'),
-        w = canvas.width = divWidth,
+    canvas = document.getElementById('canvas'),
+        ctx = canvas.getContext('2d');
+    var w = canvas.width = divWidth,
         h = canvas.height = divHeight,
-
         hue = 217,
-        stars = [],
-        count = 0,
         maxStars = 600,
         maxStarsgal = 2200;
+    stars = [],
+        count = 0;
 
-    var canvas2 = document.createElement('canvas'),
+    canvas2 = document.createElement('canvas'),
         ctx2 = canvas2.getContext('2d');
     canvas2.width = 100;
     canvas2.height = 100;
@@ -52,10 +55,10 @@ function drawGalaxy() {
     }
 
     var Star = function() {
-        this.orbitRadius = random(w / 2 - 50);
+        this.orbitRadius = random(w / 1.2 - 50);
         this.radius = random(100, this.orbitRadius) / 10;
-        this.orbitX = w / 3 - 100;
-        this.orbitY = h / 5;
+        this.orbitX = w / 2 - 100;
+        this.orbitY = h / 3;
         // this.orbitX = 100;
         // this.orbitY = 100;
         this.timePassed = random(0, maxStars);
@@ -84,8 +87,8 @@ function drawGalaxy() {
     var Stargal = function() {
         this.orbitRadius = random(w / 2 - 50);
         this.radius = random(100, this.orbitRadius) / 10;
-        this.orbitX = w / 2 + 130;
-        this.orbitY = h / 2 + 55;
+        this.orbitX = w / 2 + 20;
+        this.orbitY = h / 2;
         this.timePassed = random(0, maxStarsgal);
         this.speed = random(this.orbitRadius) / 200000;
         this.alpha = random(2, 10) / 10;
@@ -125,6 +128,13 @@ function drawGalaxy() {
     drawAnimation();
 }
 
+function clearAll() {
+    ctx.clearRect(0,0,canvas.width,canvas.height);
+    ctx2.clearRect(0,0,canvas2.width,canvas2.height);
+    stars = [];
+    count = 0;
+}
+
 function choiceShow() {
     var presentTime = new Date().getHours();
     var showText;
@@ -141,47 +151,18 @@ function choiceShow() {
     }
     return showText;
 }
-// function choiceShowEnd() {
-//     var presentTime = new Date().getHours();
-//     var showTextEnd;
-//     if(presentTime >= 5 && presentTime <10){
-//         showTextEnd = "新的一天好心情";
-//     }else if(presentTime >= 10 && presentTime < 13){
-//         showTextEnd = "现在最好今天的时光";
-//     }else if(presentTime >= 13 && presentTime < 17){
-//         showTextEnd = "努力工作";
-//     }else if(presentTime >= 17 && presentTime < 19){
-//         showTextEnd = "一起去看夕阳吧"
-//     }else if(presentTime >= 19 && presentTime < 22){
-//         showTextEnd = "好好放松下"
-//     }else if(presentTime >= 22 && presentTime < 24){
-//         showTextEnd = "熬夜伤身,早点休息"
-//     }else{
-//         showTextEnd = "为什么睡不着呢"
-//     }
-//     return showTextEnd;
-// }
 
 function showHello() {
     var showHelloDiv = document.getElementById("div_showHello");
     var maxWidths = window.innerWidth;
     showHelloDiv.style.color = "#d3d5c8";
-    showHelloDiv.style.fontSize = maxWidths/36 + 'px';
     showHelloDiv.innerText = choiceShow();
 }
 
 function setSize() {
     var maxWidth = window.innerWidth,maxHeight = window.innerHeight;
-    // if(maxWidth > maxHeight){
-        document.getElementById('div_cover').style.height = maxHeight + 'px';
-//        document.getElementById('div_recently').style.height = maxHeight + 40 + 'px';
-        document.getElementById('div_hobby').style.height = maxHeight + 40 + 'px';
-        document.getElementById('div_linkOther').style.height = maxHeight/1.5 + 'px';
-        document.getElementById('div_showHello').style.width = maxWidth/4 + 'px';
-        document.getElementById('div_showHello').style.height = maxHeight/5 + 'px';
-        document.getElementById('div_arrow').style.width = 80 + 'px';
-        document.getElementById('div_arrow').style.height = 40 + 'px';
-        // document.getElementById('div_menuBar').style.height = 500 + 'px';
-    // }
+    document.getElementById('div_cover').style.height = maxHeight + 'px';
+    document.getElementById('div_hobby').style.height = maxHeight + 240 + 'px';
+    document.getElementById('div_linkOther').style.height = maxHeight/1.5 + 'px';
 }
 

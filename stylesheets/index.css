@@ -249,8 +249,8 @@ body{
         font-size: 128%;
     }
 }
-@media screen and (min-width: 480px) and (max-width: 720px){
-    #d_content{
+@media screen and (min-width: 560px) and (max-width: 720px){
+     #d_content{
         width: 100%;
     }
     #d_content_portroit{
@@ -260,11 +260,11 @@ body{
         top: 20%;
     }
      #d_content_portroit_circle{
-        width: 93.5%;
+        width: 90.5%;
         height: 93%;
     }
      #d_content_portroit_circle:hover{
-        width: 93.5%;
+        width: 90.5%;
         height: 93%;
     }
     #d_content_show{
@@ -308,6 +308,65 @@ body{
         font-size: 120%;
     }
 }
+@media screen and (min-width: 480px) and (max-width: 560px){
+    #d_content{
+        width: 100%;
+    }
+    #d_content_portroit{
+        width: 26%;
+        height: 62%;
+        position: relative;
+        top: 20%;
+    }
+     #d_content_portroit_circle{
+        width: 98.5%;
+        height: 90%;
+    }
+     #d_content_portroit_circle:hover{
+        width: 98.5%;
+        height: 90%;
+    }
+    #d_content_show{
+        width: 95%;
+        height: 90%;
+        left: 2.5%;
+        top: 5%;
+    }
+    #d_content_show_signature{
+        width: 80%;
+        height: 10.6%;
+        left: 10%;
+        top: 5%;
+    }
+    #p_name{
+        font-size: 190%;
+    }
+    #p_signature{
+        font-size: 120%;
+    }
+    #div_p_introduce{
+        width: 80%;
+        height: 65%;
+        left: 10%;
+        top: 23%;
+    }
+    .p_introduce{
+        font-size: 94%;
+        text-indent: 7%;
+        letter-spacing: 1.5px;
+        line-height: 180%;
+        top: 5%;
+    }
+    #d_content_below_bt{
+        width: 22%;
+        height: 20%;
+        top: 35%;
+        left: 39%;
+    }
+    .bt_text{
+        font-size: 220%;
+    }
+}
 @media screen and (max-width: 480px){
     #d_content{
         width: 100%;
@@ -319,11 +378,11 @@ body{
         top: 20%;
     }
      #d_content_portroit_circle{
-        width: 93%;
+        width: 88%;
         height: 92%;
     }
      #d_content_portroit_circle:hover{
-        width: 93%;
+        width: 88%;
         height: 92%;
     }
     #d_content_show{

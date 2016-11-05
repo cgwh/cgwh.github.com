@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
-<head lang="en">
+<head lang="zh-CN">
     <meta charset="utf-8">
+    <meta name="vierport" content="width = device-width,initial-scale=1,minimum-scale=1,maximum-scale=1"/>
     <title>cg | work</title>
     <link rel="stylesheet" type="text/css" href="https://cgwh.github.io/stylesheets/workStyle.css">
     <script src="https://cgwh.github.io/javascripts/workJS.js"></script>
@@ -12,7 +13,6 @@
     <div id="div_cover">
         <canvas id="canvas"></canvas>
         <div id="div_showHello">
-
         </div>
         <div id="div_arrow">
             <span id="span1"></span>
@@ -23,51 +23,46 @@
     </div>
     <a name="hobby"></a>
     <div id="div_hobby">
-       <div id="div_hobby_pic1">
-            <div id="div_hobby_pic1_technology">
-                <a href=""><img src="https://cgwh.github.io/images/hobby/hobby_1.jpg" alt="编程学习"></a>
-                <div id="div_pic1_technology_cover">
-                    <div class="div_hobby_introduce"><p>编程学习</p></div>
-                </div>
+        <div id="div_hobby_pic1_technology">
+            <a href=""><img src="https://cgwh.github.io/images/hobby/hobby_1.jpg" alt="编程学习"></a>
+            <div id="div_pic1_technology_cover">
+                <div class="div_hobby_introduce"><p>编程学习</p></div>
             </div>
-            <div id="div_hobby_pic1_travel">
-                <a href=""><img src="https://cgwh.github.io/images/hobby/hobby_2.jpg" alt="旅行"></a>
-                <div id="div_pic1_travel_cover">
-                    <div class="div_hobby_introduce"><p>旅行</p></div>
-                </div>
+        </div>
+        <div id="div_hobby_pic1_travel">
+            <a href=""><img src="https://cgwh.github.io/images/hobby/hobby_2.jpg" alt="旅行"></a>
+            <div id="div_pic1_travel_cover">
+                <div class="div_hobby_introduce"><p>旅行</p></div>
             </div>
-            <div id="div_hobby_pic1_photography">
-                <a href=""><img src="https://cgwh.github.io/images/hobby/hobby_3.jpg" alt="摄影"></a>
-                <div id="div_pic1_photography_cover">
-                    <div class="div_hobby_introduce"><p>摄影</p></div>
-                </div>
+        </div>
+        <div id="div_hobby_pic1_photography">
+            <a href=""><img src="https://cgwh.github.io/images/hobby/hobby_3.jpg" alt="摄影"></a>
+            <div id="div_pic1_photography_cover">
+                <div class="div_hobby_introduce"><p>摄影</p></div>
             </div>
-       </div>
-       <div id="div_hobby_pic2">
-            <div id="div_hobby_pic2_dog">
-                <a href=""><img src="https://cgwh.github.io/images/hobby/hobby_4.jpg" alt="阿狗"></a>
-                <div id="div_pic2_dog_cover">
-                    <div class="div_hobby_introduce"><p>阿狗</p></div>
-                </div>
+        </div>
+        <div id="div_hobby_pic2_dog">
+            <a href=""><img src="https://cgwh.github.io/images/hobby/hobby_4.jpg" alt="阿狗"></a>
+            <div id="div_pic2_dog_cover">
+                <div class="div_hobby_introduce"><p>阿狗</p></div>
             </div>
-            <div id="div_hobby_pic2_basketball">
-                <a href=""><img src="https://cgwh.github.io/images/hobby/hobby_5.jpg" alt="运动"></a>
-                <div id="div_pic2_basketball_cover">
-                    <div class="div_hobby_introduce"><p>运动</p></div>
-                </div>
+        </div>
+        <div id="div_hobby_pic2_basketball">
+            <a href=""><img src="https://cgwh.github.io/images/hobby/hobby_5.jpg" alt="运动"></a>
+            <div id="div_pic2_basketball_cover">
+                <div class="div_hobby_introduce"><p>运动</p></div>
             </div>
-            <div id="div_hobby_pic2_recently">
-                <a href=""><img src="https://cgwh.github.io/images/hobby/hobby_6.jpg" alt="最近生活"></a>
-                <div id="div_pic2_recently_cover">
-                    <div class="div_hobby_introduce"><p>最近生活</p></div>
-                </div>
+        </div>
+        <div id="div_hobby_pic2_recently">
+            <a href=""><img src="https://cgwh.github.io/images/hobby/hobby_6.jpg" alt="最近生活"></a>
+            <div id="div_pic2_recently_cover">
+                <div class="div_hobby_introduce"><p>最近生活</p></div>
             </div>
-            <div id="div_hobby_pic2_line"></div>
-       </div>
+        </div>
+        <div id="div_hobby_pic2_line"></div>
     </div>
     <a name="linkOther"></a>
     <div id="div_linkOther">
-<!--        <div id="div_hobby_pic2_line"></div>-->
         <div id="div_linkOther_contact">
             <div id="div_linkOther_contact_text">
                 <p>您可以在此右侧输入内容给我留言,谢谢</p>
@@ -124,9 +119,10 @@
 <script>
     var clickNum = 0;
     function showMenu() {
+        var numHeight = window.innerHeight;
         if(clickNum%2 == 0){
-            document.getElementById('div_menuBarCover').style.height = 520 + 'px';
-            document.getElementById('div_menuBar').style.height = 350 + 'px';
+            document.getElementById('div_menuBarCover').style.height = (3 * numHeight)/4 + 'px';
+            document.getElementById('div_menuBar').style.height = (2 * numHeight)/3 + 'px';
         }else{
             document.getElementById('div_menuBarCover').style.height = 0 + 'px';
             document.getElementById('div_menuBar').style.height = 0 + 'px';

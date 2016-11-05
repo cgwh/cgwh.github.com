@@ -5,37 +5,908 @@
 body{
     background-color: #314b5f;
 }
+@media screen and (min-width: 1240px){
+    #div_cover{
+        width: 100%;
+    }
+    #div_showHello{
+        width: 20%;
+        height: 8%;
+        top:43%;
+        left:15%;
+        font-size: 200%;
+    }
+    #div_arrow{
+        width: 6.2%;
+        height: 6%;
+        left: 48%;
+    }
+    #div_arrow span{
+        width: 30%;
+        height: 3%;
+    }
+    #span1{
+        margin-top: 20%;
+        margin-left: 30%;
+    }
+    #span2{
+        margin-top: 20%;
+        margin-left: 46%;
+    }
+    #span3{
+        margin-top: 35%;
+        margin-left: 30%;
+    }
+    #span4{
+        margin-top: 35%;
+        margin-left: 46%;
+    }
+    #div_hobby_pic1_technology,#div_hobby_pic1_travel,
+    #div_hobby_pic1_photography,#div_hobby_pic2_dog,
+    #div_hobby_pic2_basketball,#div_hobby_pic2_recently{
+        width: 28.8%;
+        height: 26.5%;
+        float: left;
+        border: 7px solid #ffffff;
+    }
+    #div_hobby_pic1_technology,#div_hobby_pic1_travel,
+    #div_hobby_pic1_photography{
+        top: 16%;
+    }
+    #div_hobby_pic2_dog,#div_hobby_pic2_basketball,
+    #div_hobby_pic2_recently{
+        top: 23%;
+    }
+    #div_hobby_pic1_technology,#div_hobby_pic2_dog{
+        left: 3%;
+    }
+    #div_hobby_pic1_travel,#div_hobby_pic2_basketball{
+        left: 5.5%;
+    }
+    #div_hobby_pic1_photography,#div_hobby_pic2_recently{
+        left: 8%;
+    }
+    #div_hobby p{
+        font-size: 170%;
+    }
+    #div_linkOther_contact{
+        width: 90%;
+        left: 5%;
+    }
+    form{
+        width: 80%;
+        margin-left: 0%;
+    }
+    #div_linkOther_contact_text,#div_linkOther_contact_forminput{
+        width: 50%;
+        height: 100%;
+    }
+    .input_name,.input_email,.input_message{
+        width: 95%;
+        font-size: 100%;
+    }
+    .input_message{
+        height: 85%;
+        font-size: 120%;
+    }
+    .bt_send{
+        width: 50%;
+        margin-left: 0%;
+        font-size: 100%;
+    }
+    #div_linkOther_contact_text p{
+        font-size: 140%;
+        top: 40%;
+    }
+    #div_linkOther_pic p{
+        width: 2%;
+        height: 100%;
+        font-size: 100%;
+        left: 3%;
+    }
+    #div_linkOther_pic div{
+        width: 5%;
+        height: 65%;
+        margin-left: 9.5%;
+        margin-top: 1.5%;
+    }
+    #div_menu{
+        width: 4.7%;
+        height: 7%;
+        left: 3%;
+        top: 5%;
+    }
+    #div_menuBar{
+        margin-top: 10%;
+    }
+    #div_menuBar li{
+        line-height: 500%;
+    }
+    #div_menuBar li a{
+        font-size: 160%;
+    }
+    #div_hobby_pic2_line{
+        bottom: 8%;
+    }
+}
+@media screen and (min-width: 1020px) and (max-width: 1240px){
+    #div_cover{
+        width: 100%;
+    }
+    #div_showHello{
+        width: 20%;
+        height: 8%;
+        top: 40%;
+        left: 15%;
+        font-size: 180%;
+    }
+    #div_arrow{
+        width: 6.2%;
+        height: 6%;
+        left: 48%;
+    }
+    #div_arrow span{
+        width: 33%;
+        height: 3%;
+    }
+    #span1{
+        margin-top: 20%;
+        margin-left: 30%;
+    }
+    #span2{
+        margin-top: 20%;
+        margin-left: 47%;
+    }
+    #span3{
+        margin-top: 35%;
+        margin-left: 31%;
+    }
+    #span4{
+        margin-top: 34%;
+        margin-left: 48%;
+    }
+    #div_hobby_pic1_technology,#div_hobby_pic1_travel,
+    #div_hobby_pic1_photography,#div_hobby_pic2_dog,
+    #div_hobby_pic2_basketball,#div_hobby_pic2_recently{
+        width: 37.8%;
+        height: 26.5%;
+        border: 7px solid #ffffff;
+    }
+    #div_hobby_pic1_technology,#div_hobby_pic1_travel{
+        top: 5%;
+        float: left;
+    }
+    #div_hobby_pic1_photography,#div_hobby_pic2_dog{
+        top: 7%;
+        float: left;
+    }
+    #div_hobby_pic2_basketball,#div_hobby_pic2_recently{
+        top: 9%;
+        float: left;
+    }
+    #div_hobby_pic1_technology,#div_hobby_pic1_photography,
+    #div_hobby_pic2_basketball{
+        left: 9%;
+    }
+    #div_hobby_pic1_travel,#div_hobby_pic2_dog,
+    #div_hobby_pic2_recently{
+        left: 13%;
+    }
+    #div_hobby p{
+        font-size: 170%;
+    }
+    #div_linkOther_contact{
+        width: 82%;
+        left: 9%;
+    }
+    form{
+        width: 80%;
+        margin-left: 9%;
+    }
+    #div_linkOther_contact_text{
+        width: 10%;
+        height: 100%;
+    }
+    #div_linkOther_contact_forminput{
+        width: 90%;
+        height: 100%;
+    }
+    .input_name,.input_email,.input_message{
+        width: 85%;
+        font-size: 97%;
+    }
+    .input_message{
+        height: 85%;
+        font-size: 118%;
+    }
+    .bt_send{
+        width: 35%;
+        margin-left: 28%;
+        font-size: 97%;
+    }
+    #div_linkOther_contact_text p{
+        font-size: 115%;
+        top: 25%;
+    }
+    #div_linkOther_pic p{
+        width: 2%;
+        height: 100%;
+        font-size: 90%;
+        left: 3%;
+    }
+    #div_linkOther_pic div{
+        width: 5%;
+        height: 55%;
+        margin-left: 9.2%;
+        margin-top: 2.5%;
+    }
+    #div_menu{
+        width: 5.8%;
+        height: 6.5%;
+        left: 3%;
+        top: 5%;
+    }
+    #div_menuBar{
+        margin-top: 10%;
+    }
+    #div_menuBar li{
+        line-height: 500%;
+    }
+    #div_menuBar li a{
+        font-size: 150%;
+    }
+    #div_hobby_pic2_line{
+        bottom: 3%;
+    }
+}
+@media screen and (min-width: 960px) and (max-width: 1020px){
+    #div_cover{
+        width: 100%;
+    }
+    #div_showHello{
+        width: 20%;
+        height: 8%;
+        top: 35%;
+        left: 16%;
+        font-size: 170%;
+    }
+    #div_arrow{
+        width: 6.2%;
+        height: 6%;
+        left: 46%;
+    }
+    #div_arrow span{
+        width: 32%;
+        height: 3%;
+    }
+    #span1{
+        margin-top: 20%;
+        margin-left: 30%;
+    }
+    #span2{
+        margin-top: 20%;
+        margin-left: 46%;
+    }
+    #span3{
+        margin-top: 39%;
+        margin-left: 30%;
+    }
+    #span4{
+        margin-top: 38%;
+        margin-left: 46%;
+    }
+    #div_hobby_pic1_technology,#div_hobby_pic1_travel,
+    #div_hobby_pic1_photography,#div_hobby_pic2_dog,
+    #div_hobby_pic2_basketball,#div_hobby_pic2_recently{
+        width: 40.8%;
+        height: 26.5%;
+        border: 6px solid #ffffff;
+    }
+    #div_hobby_pic1_technology,#div_hobby_pic1_travel{
+        top: 5%;
+        float: left;
+    }
+    #div_hobby_pic1_photography,#div_hobby_pic2_dog{
+        top: 7%;
+        float: left;
+    }
+    #div_hobby_pic2_basketball,#div_hobby_pic2_recently{
+        top: 9%;
+        float: left;
+    }
+    #div_hobby_pic1_technology,#div_hobby_pic1_photography,
+    #div_hobby_pic2_basketball{
+        left: 6%;
+    }
+    #div_hobby_pic1_travel,#div_hobby_pic2_dog,
+    #div_hobby_pic2_recently{
+        left: 9%;
+    }
+    #div_hobby p{
+        font-size: 160%;
+    }
+    #div_linkOther_contact{
+        width: 86%;
+        left: 6%;
+    }
+    form{
+        width: 80%;
+        margin-left: 10%;
+    }
+    #div_linkOther_contact_text{
+        width: 10%;
+        height: 100%;
+    }
+    #div_linkOther_contact_forminput{
+        width: 90%;
+        height: 100%;
+    }
+    .input_name,.input_email,.input_message{
+        width: 85%;
+        font-size: 100%;
+        font-size: 100%;
+    }
+    .input_message{
+        height: 80%;
+        font-size: 120%;
+    }
+    .bt_send{
+        width: 35%;
+        font-size: 100%;
+        margin-left: 28%;
+    }
+    #div_linkOther_contact_text p{
+        font-size: 105%;
+        top: 20%;
+    }
+    #div_linkOther_pic p{
+        width: 2%;
+        height: 100%;
+        font-size: 85%;
+        left: 3%;
+    }
+    #div_linkOther_pic div{
+        width: 5%;
+        height: 53%;
+        margin-left: 8.9%;
+        margin-top: 2.5%;
+    }
+    #div_menu{
+        width: 5.7%;
+        height: 6%;
+        left: 3%;
+        top: 5%;
+    }
+    #div_menuBar li{
+        line-height: 450%;
+    }
+    #div_menuBar li a{
+        font-size: 140%;
+    }
+    #div_menuBar{
+        margin-top: 15%;
+    }
+    #div_hobby_pic2_line{
+        bottom: 3%;
+    }
+}
+@media screen and (min-width: 720px) and (max-width: 960px){
+    #div_cover{
+        width: 100%;
+    }
+    #div_showHello{
+        width: 30%;
+        height: 8%;
+        top: 35%;
+        left: 15%;
+        font-size: 160%;
+    }
+    #div_arrow{
+        width: 8.2%;
+        height: 8.6%;
+        left: 46%;
+    }
+    #div_arrow span{
+        width: 32%;
+        height: 3%;
+    }
+    #span1{
+        margin-top: 20%;
+        margin-left: 30%;
+    }
+    #span2{
+        margin-top: 20%;
+        margin-left: 46%;
+    }
+    #span3{
+        margin-top: 39%;
+        margin-left: 30%;
+    }
+    #span4{
+        margin-top: 39%;
+        margin-left: 46%;
+    }
+    #div_hobby_pic1_technology,#div_hobby_pic1_travel,
+    #div_hobby_pic1_photography,#div_hobby_pic2_dog,
+    #div_hobby_pic2_basketball,#div_hobby_pic2_recently{
+        width: 42.8%;
+        height: 21.5%;
+        border: 5px solid #ffffff;
+    }
+    #div_hobby_pic1_technology,#div_hobby_pic1_travel{
+        top: 10%;
+        float: left;
+    }
+    #div_hobby_pic1_photography,#div_hobby_pic2_dog{
+        top: 13%;
+        float: left;
+    }
+    #div_hobby_pic2_basketball,#div_hobby_pic2_recently{
+        top: 16%;
+        float: left;
+    }
+    #div_hobby_pic1_technology,#div_hobby_pic1_photography,
+    #div_hobby_pic2_basketball{
+        left: 4%;
+    }
+    #div_hobby_pic1_travel,#div_hobby_pic2_dog,
+    #div_hobby_pic2_recently{
+        left: 7%;
+    }
+    #div_hobby p{
+        font-size: 150%;
+    }
+    #div_linkOther_contact{
+        width: 90%;
+        left: 4.5%;
+    }
+    form{
+        width: 80%;
+        margin-left: 10%;
+    }
+    #div_linkOther_contact_text{
+        width: 10%;
+        height: 100%;
+    }
+    #div_linkOther_contact_forminput{
+        width: 90%;
+        height: 100%;
+    }
+    .input_name,.input_email,.input_message{
+        width: 85%;
+        font-size: 90%;
+    }
+    .input_message{
+        height: 80%;
+        font-size: 110%;
+        
+    }
+    .bt_send{
+        width: 35%;
+        font-size: 90%;
+        margin-left: 28%;
+    }
+    #div_linkOther_contact_text p{
+        font-size: 100%;
+        top: 20%;
+    }
+    #div_linkOther_pic p{
+        width: 2%;
+        height: 90%;
+        font-size: 80%;
+        left: 2%;
+        top: 8%;
+    }
+    #div_linkOther_pic div{
+        width: 6.3%;
+        height: 53%;
+        margin-left: 8%;
+        margin-top: 3.5%;
+    }
+    #div_menu{
+        width: 6.7%;
+        height: 5.5%;
+        left: 3%;
+        top: 5%;
+    }
+    #div_menuBar{
+        margin-top: 16%;
+    }
+    #div_menuBar li{
+        line-height: 450%;
+    }
+    #div_menuBar li a{
+        font-size: 140%;
+    }
+    #div_hobby_pic2_line{
+        bottom: 8%;
+    }
+}
+@media screen and (min-width: 560px) and (max-width: 720px){
+    #div_cover{
+        width: 100%;
+    }
+    #div_showHello{
+        width: 23%;
+        height: 8%;
+        top: 32%;
+        left: 18%;
+        font-size: 130%;
+    }
+    #div_arrow{
+        width: 8.5%;
+        height: 6%;
+        left: 46%;
+    }
+    #div_arrow span{
+        width: 32%;
+        height: 3%;
+    }
+    #span1{
+        margin-top: 20%;
+        margin-left: 30%;
+    }
+    #span2{
+        margin-top: 20%;
+        margin-left: 45%;
+    }
+    #span3{
+        margin-top: 39%;
+        margin-left: 30%;
+    }
+    #span4{
+        margin-top: 39%;
+        margin-left: 45%;
+    }
+    #div_hobby_pic1_technology,#div_hobby_pic1_travel,
+    #div_hobby_pic1_photography,#div_hobby_pic2_dog,
+    #div_hobby_pic2_basketball,#div_hobby_pic2_recently{
+        width: 46.8%;
+        height: 20.5%;
+        border: 3px solid #ffffff;
+    }
+    #div_hobby_pic1_technology,#div_hobby_pic1_travel{
+        top: 13%;
+        float: left;
+    }
+    #div_hobby_pic1_photography,#div_hobby_pic2_dog{
+        top: 17%;
+        float: left;
+    }
+    #div_hobby_pic2_basketball,#div_hobby_pic2_recently{
+        top: 22%;
+        float: left;
+    }
+    #div_hobby_pic1_technology,#div_hobby_pic1_photography,
+    #div_hobby_pic2_basketball{
+        left: 1%;
+    }
+    #div_hobby_pic1_travel,#div_hobby_pic2_dog,
+    #div_hobby_pic2_recently{
+        left: 2%;
+    }
+    #div_hobby p{
+        font-size: 130%;
+    }
+    #div_linkOther_contact{
+        width: 96%;
+        left: 2%;
+    }
+    form{
+        width: 80%;
+        margin-left: 5%;
+    }
+    #div_linkOther_contact_text{
+        width: 10%;
+        height: 100%;
+    }
+    #div_linkOther_contact_forminput{
+        width: 90%;
+        height: 100%;
+    }
+    .input_name,.input_email,.input_message{
+        width: 95%;
+        font-size: 85%;
+    }
+    .input_message{
+        height: 80%;
+        font-size: 100%;
+        
+    }
+    .bt_send{
+        width: 35%;
+        font-size: 85%;
+        margin-left: 28%;
+    }
+    #div_linkOther_contact_text p{
+        font-size: 100%;
+        top: 20%;
+    }
+    #div_linkOther_pic p{
+        width: 2%;
+        height: 80%;
+        font-size: 76%;
+        left: 1%;
+        top: 15%;
+    }
+    #div_linkOther_pic div{
+        width: 6.3%;
+        height: 43%;
+        margin-left: 8%;
+        margin-top: 5.8%;
+    }
+    #div_menu{
+        width: 6.7%;
+        height: 5%;
+        left: 3%;
+        top: 5%;
+    }
+    #div_menuBar{
+        margin-top: 19%;
+    }
+    #div_menuBar li{
+        line-height: 450%;
+    }
+    #div_menuBar li a{
+        font-size: 130%;
+    }
+    #div_hobby_pic2_line{
+        bottom: 6%;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 560px){
+    #div_cover{
+        width: 100%;
+    }
+    #div_showHello{
+        width: 23%;
+        height: 8%;
+        top: 32%;
+        left: 18%;
+        font-size: 130%;
+    }
+    #div_arrow{
+        width: 10.2%;
+        height: 5%;
+        left:44%;
+    }
+    #div_arrow span{
+        width: 32%;
+        height: 3%;
+    }
+    #span1{
+        margin-top: 20%;
+        margin-left: 30%;
+    }
+    #span2{
+        margin-top: 20%;
+        margin-left: 46%;
+    }
+    #span3{
+        margin-top: 39%;
+        margin-left: 30%;
+    }
+    #span4{
+        margin-top: 39%;
+        margin-left: 46%;
+    }
+    #div_hobby_pic1_technology,#div_hobby_pic1_travel,
+    #div_hobby_pic1_photography,#div_hobby_pic2_dog,
+    #div_hobby_pic2_basketball,#div_hobby_pic2_recently{
+        width: 60.8%;
+        height: 15.5%;
+        left: 17%;
+        border: 2px solid #ffffff;
+        top: 2%;
+    }
+    #div_hobby p{
+        font-size: 110%;
+    }
+    #div_linkOther_contact{
+        width: 96%;
+        left: 2%;
+    }
+    form{
+        width: 90%;
+        margin-left: 2%;
+    }
+    #div_linkOther_contact_text{
+        width: 10%;
+        height: 100%;
+    }
+    #div_linkOther_contact_forminput{
+        width: 90%;
+        height: 100%;
+    }
+    .input_name,.input_email,.input_message{
+        width: 98%;
+        font-size: 85%;
+    }
+    .input_message{
+        height: 80%;
+        font-size: 100%;
+        
+    }
+    .bt_send{
+        width: 100%;
+        font-size: 85%;
+        margin-left: 0%;
+    }
+    #div_linkOther_contact_text p{
+        font-size: 100%;
+        top: 18%;
+    }
+    #div_linkOther_pic p{
+        width: 3%;
+        height: 80%;
+        font-size: 76%;
+        left: 1%;
+        top: 15%;
+    }
+    #div_linkOther_pic div{
+        width: 7.3%;
+        height: 40%;
+        margin-left: 6.9%;
+        margin-top: 6.3%;
+    }
+    #div_menu{
+        width: 7.7%;
+        height: 4%;
+        left: 3%;
+        top: 5%;
+    }
+    #div_menuBar{
+        margin-top: 25%;
+    }
+    #div_menuBar li{
+        line-height: 400%;
+    }
+    #div_menuBar li a{
+        font-size: 120%;
+    }
+    #div_hobby_pic2_line{
+        bottom: 1%;
+    }
+}
+@media screen and (max-width: 480px){
+    #div_cover{
+        width: 100%;
+    }
+    #div_showHello{
+        width: 6%;
+        height: 20%;
+        top: 27%;
+        left: 20%;
+        font-size: 120%;
+    }
+    #div_arrow{
+        width: 13%;
+        height: 7%;
+        left: 42%;
+    }
+    #div_arrow span{
+        width: 70%;
+        height: 2%;
+    }
+    #span1{
+        margin-top: 20%;
+        margin-left: 30%;
+    }
+    #span2{
+        margin-top: 20%;
+        margin-left: 46%;
+    }
+    #span3{
+        margin-top: 39%;
+        margin-left: 30%;
+    }
+    #span4{
+        margin-top: 39%;
+        margin-left: 46%;
+    }
+    #div_hobby_pic1_technology,#div_hobby_pic1_travel,
+    #div_hobby_pic1_photography,#div_hobby_pic2_dog,
+    #div_hobby_pic2_basketball,#div_hobby_pic2_recently{
+        width: 65.8%;
+        height: 15.5%;
+        left: 16%;
+        border: 2px solid #ffffff;
+        top: 2%;
+    }
+    #div_hobby p{
+        font-size: 110%;
+    }
+    #div_linkOther_contact{
+        width: 96%;
+        left: 2%;
+    }
+    form{
+        width: 100%;
+        margin-left: 0%;
+    }
+    #div_linkOther_contact_text{
+        width: 10%;
+        height: 100%;
+    }
+    #div_linkOther_contact_forminput{
+        width: 90%;
+        height: 100%;
+    }
+    .input_name,.input_email,.input_message{
+        width: 98%;
+        font-size: 70%;
+    }
+    .input_message{
+        height: 80%;
+        font-size: 100%;
+        
+    }
+    .bt_send{
+        width: 100%;
+        font-size: 70%;
+        margin-left: 0%;
+    }
+    #div_linkOther_contact_text p{
+        font-size: 85%;
+        top: 24%;
+    }
+    #div_linkOther_pic p{
+        width: 3%;
+        height: 80%;
+        font-size: 65%;
+        left: 1%;
+        top: 15%;
+    }
+    #div_linkOther_pic div{
+        width: 8.3%;
+        height: 37%;
+        margin-left: 6.6%;
+        margin-top: 9.8%;
+    }
+    #div_menu{
+        width: 9.7%;
+        height: 4.2%;
+        left: 3%;
+        top: 5%;
+    }
+    #div_menuBar{
+        margin-top: 37%;
+    }
+    #div_menuBar li{
+        line-height: 400%;
+    }
+    #div_menuBar li a{
+        font-size: 100%;
+    }
+    #div_hobby_pic2_line{
+        bottom: 1%;
+    }
+}
 #div_firstPage{
     width: 100%;
-    /*height: 600px;*/
-    /*background-color: #16c4a1;*/
 }
 #div_secondPage{
     width: 100%;
-    /*height: 500px;*/
     /*background-color: #80c4f8;*/
     position: fixed;
     top: 0px;
 }
 #div_cover{
     width:100%;
+/*    background-color: dimgrey;*/
 }
 #div_showHello{
-    background-color: transparent;
+/*    background-color: chocolate;*/
     position: absolute;
     text-align: center;
-    top:43%;
-    left:15%;
+    color: #d3d5c8;
 }
 #div_arrow{
-    background-color: transparent;
+/*    background-color: green;*/
     position: absolute;
-    bottom:0px;
-    left: 48%;
+    bottom:0%;
 }
 #div_arrow span{
-    width: 30%;
-    height: 3%;
     display: block;
     position: absolute;
     background-color: #000000;
@@ -145,8 +1016,6 @@ body{
     -o-animation-delay: 0.6s;
 }
 #span1{
-    margin-top: 10px;
-    margin-left: 24px;
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
@@ -154,8 +1023,6 @@ body{
     -o-transform: rotate(45deg);
 }
 #span2{
-    margin-top: 10px;
-    margin-left: 37px;
     transform: rotate(133deg);
     -webkit-transform: rotate(133deg);
     -moz-transform: rotate(133deg);
@@ -163,8 +1030,6 @@ body{
     -o-transform: rotate(133deg);
 }
 #span3{
-    margin-top: 25px;
-    margin-left: 24px;
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
@@ -172,8 +1037,6 @@ body{
     -o-transform: rotate(45deg);
 }
 #span4{
-    margin-top: 25px;
-    margin-left: 37px;
     transform: rotate(133deg);
     -webkit-transform: rotate(133deg);
     -moz-transform: rotate(133deg);
@@ -181,12 +1044,8 @@ body{
     -o-transform: rotate(133deg);
 }
 #div_menu{
-    width: 4.7%;
-    height: 46px;
     background-color: transparent;
-    position: absolute;
-    left: 40px;
-    top: 50px;
+    position: fixed;
     border: 0px;
     box-shadow: 1px 1px 3px #d3d5c8;
     border-radius: 3px;
@@ -200,16 +1059,15 @@ body{
     display: block;
     border-radius: 20%;
     margin-top: 22%;
-/*    margin-bottom: 10%;*/
 }
 #div_menu:hover span{
     background-color: #80c4f8;
 }
 #div_menu:hover{
-    box-shadow: 2px 2px 5px #80c4f8;
+    box-shadow: 2px 2px 5px #16c4a1;
 }
 #div_menu:visited{
-    background-color: red;
+/*    background-color: red;*/
 }
 #div_menuBarCover{
     width: 100%;
@@ -229,7 +1087,6 @@ body{
     width: 14%;
     background-color: transparent;
     position: absolute;
-    margin-top: 10%;
     margin-left: 43%;
     overflow: hidden;
     -webkit-transition: all 1.3s ease;
@@ -241,55 +1098,38 @@ body{
 #div_menuBar li{
     list-style: none;
     text-align: center;
-    line-height: 550%;
 }
 #div_menuBar li a{
     color: #d3d5c8;
     text-decoration: none;
-    font-size: 160%;
     display: block;
 }
 #div_menuBar li a:hover{
-    color: #80c4f8;
-    border-bottom: 1px solid #80c4f8;
+    color:#16c4a1;
+    border-bottom: 1px solid #16c4a1;
 }
-/*
-#div_recently{
-    width:90%;
-    background-color: #3399cc;
-    margin:auto;
-}
-*/
 #div_hobby{
     width:100%;
-/*    border-bottom: 1px dashed #d3d5c8;*/
 /*    background-color: burlywood;*/
-/*    margin:auto;*/
-}
-#div_hobby_pic1{
-    width: 100%;
-    height: 50%;
-/*    background-color: blue;*/
-    border-bottom: 1px dashed #ffffff;
-}
-#div_hobby_pic2{
-    width: 100%;
-    height: 50%;
-/*    background-color: blueviolet;*/
-}
-#div_hobby_pic1_technology{
-    width: 28.8%;
-    height: 63.5%;
-/*    background-color: black;*/
     position: relative;
-    top: 22%;
-    left: 3%;
-    float: left;
-    border: 7px solid #ffffff;
 }
-#div_pic1_technology_cover{
+#div_pic1_technology_cover,#div_pic1_travel_cover,
+#div_pic2_dog_cover,#div_pic2_basketball_cover{
     width: 0%;
     height: 100%;
+    cursor: pointer;
+}
+#div_pic1_photography_cover,#div_pic2_recently_cover{
+    width: 100%;
+    height: 0%;
+    cursor: pointer;
+}
+#div_hobby_pic1_technology,#div_hobby_pic1_travel,
+#div_hobby_pic1_photography,#div_hobby_pic2_dog,
+#div_hobby_pic2_basketball,#div_hobby_pic2_recently{
+    position: relative;
+}
+#div_pic1_technology_cover{
     background-color: #000000;
     opacity: 0.8;
     position: absolute;
@@ -305,19 +1145,7 @@ body{
 #div_hobby_pic1_technology:hover #div_pic1_technology_cover{
     width: 100%;
 }
-#div_hobby_pic1_travel{
-    width: 28.8%;
-    height: 63.5%;
-/*    background-color: cadetblue;*/
-    position: relative;
-    top: 22%;
-    left: 5.5%;
-    float: left;
-    border: 7px solid #ffffff;
-}
 #div_pic1_travel_cover{
-    width: 0%;
-    height: 235px;
     background-color: #000000;
     opacity: 0.8;
     position: absolute;
@@ -332,19 +1160,7 @@ body{
 #div_hobby_pic1_travel:hover #div_pic1_travel_cover{
     width: 100%;
 }
-#div_hobby_pic1_photography{
-    width: 28.8%;
-    height: 63.5%;
-/*    background-color: aliceblue;*/
-    position: relative;
-    top: 22%;
-    left: 8%;
-    float: left;
-    border: 7px solid #ffffff;
-}
 #div_pic1_photography_cover{
-    width: 100%;
-    height: 0%;
     background-color: #000000;
     opacity: 0.8;
     position: absolute;
@@ -356,22 +1172,12 @@ body{
     -o-transition: all 1s ease;
     -ms-transition: all 1s ease;
 }
+
 #div_hobby_pic1_photography:hover #div_pic1_photography_cover{
     height: 100%;
 }
-#div_hobby_pic2_dog{
-    width: 28.8%;
-    height: 63.4%;
-/*    background-color: black;*/
-    position: relative;
-    top: 10%;
-    left: 3%;
-    float: left;
-    border: 7px solid #ffffff;
-}
+
 #div_pic2_dog_cover{
-    width: 0%;
-    height: 100%;
     background-color: #000000;
     opacity: 0.8;
     position: absolute;
@@ -387,19 +1193,7 @@ body{
 #div_hobby_pic2_dog:hover #div_pic2_dog_cover{
     width: 100%;
 }
-#div_hobby_pic2_basketball{
-    width: 28.8%;
-    height: 63.4%;
-/*    background-color: cadetblue;*/
-    position: relative;
-    top: 10%;
-    left: 5.5%;
-    float: left;
-    border: 7px solid #ffffff;
-}
 #div_pic2_basketball_cover{
-    width: 0%;
-    height: 100%;
     background-color: #000000;
     opacity: 0.8;
     position: absolute;
@@ -414,19 +1208,7 @@ body{
 #div_hobby_pic2_basketball:hover #div_pic2_basketball_cover{
     width: 100%;
 }
-#div_hobby_pic2_recently{
-    width: 28.8%;
-    height: 63.4%;
-/*    background-color: aliceblue;*/
-    position: relative;
-    top: 10%;
-    left: 8%;
-    float: left;
-    border: 7px solid #ffffff;
-}
 #div_pic2_recently_cover{
-    width: 100%;
-    height: 0%;
     background-color: #000000;
     opacity: 0.8;
     position: absolute;
@@ -439,6 +1221,10 @@ body{
     -ms-transition: all 1s ease;
 }
 #div_hobby_pic2_recently:hover #div_pic2_recently_cover{
+    height: 100%;
+}
+#div_hobby img{
+    width: 100%;
     height: 100%;
 }
 .div_hobby_introduce{
@@ -454,10 +1240,7 @@ body{
 #div_hobby p{
     color: #d3d5c8;
     font-family: sans-serif;
-/*    font-weight: 100;*/
-    font-size: 160%;
     text-align: center;
-/*    display: block;*/
     opacity: 0;
     transition: all 0.5s ease;
     -webkit-transition: all 0.5s ease;
@@ -483,48 +1266,41 @@ body{
 #div_hobby_pic2_recently:hover #div_pic2_recently_cover p{
     opacity: 1;
 }
+
 #div_hobby_pic2_line{
     width: 100%;
-    height: 2%;
+    height: 1%;
 /*    background-color: #000000;*/
-    position: relative;
-    bottom: -88%;
+    position: absolute;
     border-bottom: 1px dashed #ffffff;
 }
 #div_linkOther{
-    width:90%;
+    width:100%;
 /*    background-color: #999999;*/
     margin:auto;
 }
 #div_linkOther_contact{
-    width: 100%;
-    height: 70%;
+    height: 80%;
+    position: relative;
 /*    background-color: brown;*/
 }
 #div_linkOther_contact_text{
-    width: 50%;
-    height: 100%;
+    position: relative;
 /*    background-color: aliceblue;*/
     float: left;
 }
 #div_linkOther_contact_text p{
     color: #d3d5c8;
     text-align: center;
-    font-size: 140%;
     font-family: sans-serif;
-    margin-top: 22%;
+    position: relative;
 }
 #div_linkOther_contact_forminput{
-    width: 50%;
-    height: 100%;
 /*    background-color: chartreuse;*/
     float: left;
 }
 form{
-    width: 80%;
     height: 100%;
-    margin-left: 10%;
-/*    margin-top: 5%;*/
 /*    background-color: aliceblue;*/
 }
 #div_form_name{
@@ -551,49 +1327,40 @@ form{
     margin-top: 0.5%;
 }
 .input_name,.input_email{
-    width: 80%;
     height: 90%;
-    font-size: 100%;
     border: 3px solid  #d3d5c8;
     border-radius: 5px;
-/*    margin-top: 5%;*/
-}
-.input_email,.input_message,.bt_send{
-/*    margin-top: 2.5%;*/
 }
 .input_email:focus,.input_name:focus,.input_message:focus{
-    border: 3px solid #80c4f8;
+    border: 3px solid #16c4a1;
 }
 .input_message{
-    width: 80%;
-    font-size: 120%;
     border: 3px solid #d3d5c8;
     border-radius: 5px;
-/*    height: 200%;*/
 }
 .bt_send{
-    width: 30%;
     height: 100%;
     background-color: #314b5f;
-    border: 3px solid #d3d5c8;
+    border: 3px solid #16c4a1;
     border-radius: 5px;
+    color: #d3d5c8;
+    cursor: pointer;
 }
 .bt_send:hover{
-    border: 3px solid #80c4f8;
+    border: 3px solid #16c4a1;
     color: #80c4f8;
+    box-shadow: 0px 0px 10px #ffffff;
 }
 #div_linkOther_pic{
     width: 100%;
-    height: 30%;
+    height: 20%;
 /*    background-color: chocolate;*/
-/*    margin-top: 5%;*/
     border-top: 1px dashed #ffffff
 }
 #div_linkOther_pic div{
-    width: 7%;
-    height: 60%;
-/*    background-color: #314b5f;*/
-    border: 2px solid #d3d5c8;
+/*    border: 2px solid #d3d5c8;*/
+    float: left;
+    background-color: #ffffff;
     border-radius: 50%;
     transition: all 1s ease;
     -webkit-transition: all 1s ease;
@@ -603,7 +1370,6 @@ form{
 }
 #div_linkOther_pic img{
     border-radius: 50%;
-/*    border: 10px outset #d3d5c8;*/
 /*    box-shadow: 2px 2px 5px #d3d5c8;*/
     width: 100%;
     height: 100%;
@@ -614,54 +1380,13 @@ form{
     -moz-transform: scale(1.1);
     -o-transform: scale(1.1);
     -ms-transform: scale(1.1);
-/*
-    transform: rotate(180deg);
-    -webkit-transform: rotate(180deg);
-*/
 }
 #div_linkOther_pic p{
     color: #d3d5c8;
-    font-size: 140%;
-    width: 2%;
-    height: 90%;
 /*    background-color: #000000;*/
     float: left;
     position: relative;
-    top: 5%;
-    left: 3%;
 }
 .div_linkOther_pic_s{
     box-shadow: 1px 1px 9px #d3d5c8;
-    margin-top: 2.4%;
-}
-#div_linkOther_pic_github{
-    background-color: #ffffff;
-    float: left;
-    margin-left: 8.5%;
-}
-#div_linkOther_pic_brackets{
-    background-color: #ffffff;
-    float: left;
-    margin-left: 7%;
-}
-#div_linkOther_pic_mozilladeveloper{
-    background-color: #ffffff;
-    float: left;
-    margin-left: 7%;
-}
-#div_linkOther_pic_eclipse{
-    background-color: #ffffff;
-    float: left;
-    margin-left: 7%;
-}
-#div_linkOther_pic_xampp{
-    background-color: #ffffff;
-    float: left;
-    margin-left: 7%;
-}
-#div_linkOther_pic_linuxmint{
-    background-color: #ffffff;
-    float: left;
-    margin-left: 7%;
-    
 }
