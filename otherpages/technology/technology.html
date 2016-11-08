@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html>
-<head lang="ch-CN">
+<head lang="zh-CN">
     <meta charset="utf-8">
-    <meta property="og:title" content="cg个人整理所学Java,Python,Web，Linux,JavaScript等方面知识点">
-    <meta property="og:description" content="cg个人基于github开源平台搭建简易网站服务器的测试">
     <title>cg | Work | Technology</title>
-    <link href="https://cgwh.github.io/stylesheets/technologyStyle.css" type="text/css" rel="stylesheet">
+    <link href="technologyStyle.css" type="text/css" rel="stylesheet">
 </head>
 <body>
     <div id="div_top">
-        <div id="div_top_text1"><a href="https://cgwh.github.io/otherpages/work/work.html">首页</a></div>
+        <div id="div_top_text1"><a href="">首页</a></div>
         <div id="div_top_text2"><p>Technology</p></div>
         <div id="div_top_search">
             <form>
@@ -41,7 +39,7 @@
         </div>
     </div>
     <div id="div_right">
-        <div id="div_right_java" class="div_right_technology"><a      href="" class="a_right_technology">
+        <div id="div_right_java" class="div_right_technology"><a      href="https://cgwh.github.io/otherpages/technology/java/java.html" class="a_right_technology">
             <div class="div_right_technology_top">
                 <div class="div_right_technology_top_triangle_left"></div>
                 <p>Java</p>
@@ -60,7 +58,7 @@
             </div>
             </a>
         </div>
-        <div id="div_right_python" class="div_right_technology"><a href="" class="a_right_technology">
+        <div id="div_right_python" class="div_right_technology"><a href="https://cgwh.github.io/otherpages/technology/python/python.html" class="a_right_technology">
             <div class="div_right_technology_top">
                 <div class="div_right_technology_top_triangle_left"></div>
                 <p>Python</p>
@@ -68,7 +66,7 @@
             <div class="div_right_technology_ul"></div>
             </a>
         </div>
-        <div id="div_right_web" class="div_right_technology"><a        href="" class="a_right_technology">
+        <div id="div_right_web" class="div_right_technology"><a        href="https://cgwh.github.io/otherpages/technology/htmlCss/htmlCss.html" class="a_right_technology">
             <div class="div_right_technology_top">
                 <div class="div_right_technology_top_triangle_left"></div>
                 <p>html+css</p>
@@ -76,7 +74,7 @@
             <div class="div_right_technology_ul"></div>
             </a>
         </div>
-        <div id="div_right_javascript" class="div_right_technology"><a href="" class="a_right_technology">
+        <div id="div_right_javascript" class="div_right_technology"><a href="https://cgwh.github.io/otherpages/technology/javaScript/javaScript.html" class="a_right_technology">
             <div class="div_right_technology_top">
                 <div class="div_right_technology_top_triangle_left"></div>
                 <p>JavaScript</p>
@@ -84,7 +82,15 @@
             <div class="div_right_technology_ul"></div>
             </a>
         </div>
-        <div id="div_right_linux" class="div_right_technology"><a href="" class="a_right_technology">
+        <div id="div_right_linux" class="div_right_technology"><a href="https://cgwh.github.io/otherpages/technology/mySql/mySql.html" class="a_right_technology">
+            <div class="div_right_technology_top">
+                <div class="div_right_technology_top_triangle_left"></div>
+                <p>MySQL数据库</p>
+            </div>
+            <div class="div_right_technology_ul"></div>
+            </a>
+        </div>
+        <div id="div_right_linux" class="div_right_technology"><a href="https://cgwh.github.io/otherpages/technology/linux/linux.html" class="a_right_technology">
             <div class="div_right_technology_top">
                 <div class="div_right_technology_top_triangle_left"></div>
                 <p>Linux</p>
@@ -93,5 +99,33 @@
             </a>
         </div>
     </div>
+<!--
+    <script>
+        var agent = navigator.userAgent;
+        if (/.*Firefox.*/.test(agent)) {
+            document.addEventListener("DOMMouseScroll", function(e) {
+                e = e || window.event;
+                var detail = e.detail;
+                if (detail > 0) {
+                    alert("鼠标向下滚动");
+                } else {
+                    alert("鼠标向上滚动");
+                }
+            });
+        } else {
+            document.onmousewheel = function(e) {
+                e = e || window.event;
+                var wheelDelta = e.wheelDelta;
+                if (wheelDelta > 0) {
+                  alert("鼠标向上滚动");
+                    document.getElementById('div_top').style.height = 50 + 'px';
+                } else {
+                    alert("鼠标向下滚动");
+                    document.getElementById('div_top').style.height = 0 + 'px';
+                }
+            }
+        }
+    </script>
+-->
 </body>
 </html>
