@@ -134,9 +134,9 @@ body{
 
 #div_container_center{
     width: 94%;
-    height: 850px;
+    height: 84%;
     margin: auto;
-    border: 1px solid #000000;
+/*    border: 1px solid #000000;*/
     position: relative;
 /*    margin-top: 2%;*/
 }
@@ -155,9 +155,10 @@ body{
     width: 9%;
     height: 3.5%;
 /*    background-color: #314b5f;*/
-    margin: auto;
-    position: relative;
-    top: 3.5%;
+/*    margin: auto;*/
+    position: absolute;
+    left: 45.5%;
+    bottom: 5%;
 }
 #bt_container_bt{
     width: 100%;
