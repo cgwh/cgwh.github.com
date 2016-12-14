@@ -1,0 +1,50 @@
+
+#div_container{
+    height: 2800px;
+}
+
+#div_top_text1_1{
+    width: 30px;
+/*    background-color: green;*/
+    margin-left: 10%;
+}
+#div_top_text1_2{
+    width: 60px;
+}
+#div_top_text1_3{
+    width: 66px;
+}
+
+
+#div_container_center{
+    height: 91%;
+}
+
+#div_container_bt{
+    height: 1.4%;
+    bottom: 100px;
+}
+
+.p_cnfont,.p_enfont,.p_reenfont{
+    font-size: 90%;
+    margin-top: 0.7%;
+    letter-spacing: 0.8px;
+}
+.p_reenfont{
+    text-indent: 10%;
+}
+.p_enfont{
+/*    font-size: 90%;*/
+    text-indent: 5%;
+}    
+.p_code{
+    font-size: 85%;
+}
+.p_img{
+    text-indent: 15%;
+}
+
+p a{
+/*    text-decoration:none;*/
+    color: #949494;
+}
