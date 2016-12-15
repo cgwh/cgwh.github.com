@@ -1,5 +1,5 @@
 #div_container{
-    height: 3560px;
+    height: 3600px;
    
 }
 
@@ -23,6 +23,20 @@
 #div_container_bt{
     height: 1%;
     bottom: 85px;
+}
+
+#div_img{
+    width: 80%;
+    height: 9%;
+    margin: auto;
+    text-align: center;
+    background-color: aqua;
+}
+#div_img img{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    overflow: hidden;
 }
 
 .p_cnfont,.p_enfont{
