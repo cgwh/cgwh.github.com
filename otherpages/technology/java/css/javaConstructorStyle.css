@@ -1,6 +1,8 @@
-
-#div_container{
+body{
     height: 1000px;
+}
+#div_container{
+    height: 82%;
 
 }
 #div_top_text1_1{
@@ -15,14 +17,13 @@
     width: 26px;
 }
 
-#div_container_center{
-    height: 84%;
-   
-}
 
 #div_container_bt{
-    height: 3.5%;
-    bottom: 80px;
+    height: 18%;
+}
+#bt_container_bt{
+    height: 23%;
+    margin-top: 2%;
 }
 
 .p_cnfont{

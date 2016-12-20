@@ -1,6 +1,8 @@
-
+body{
+    height: 3280px;
+}
 #div_container{
-    height: 3300px;
+    height: 94%;
    
 }
 
@@ -16,16 +18,16 @@
     width: 26px;
 }
 
-#div_container_center{
-    height: 94%;
-    
-}
-
 
 #div_container_bt{
-    height: 1.1%;
-    bottom: 85px;
+    height: 6%;
 }
+#bt_container_bt{
+    height: 21%;
+    margin-top: 3.8%;
+}
+
+
 .p_cnfont{
     font-size: 90%;
     margin-top: 0.7%;

@@ -1,5 +1,8 @@
+body{
+    height: 1150px;
+}
 #div_container{
-    height: 1200px;
+    height: 85%;
     
 }
 
@@ -16,14 +19,12 @@
 }
 
 
-#div_container_center{
-    height: 84%;
-}
-
-
 #div_container_bt{
-    height: 3%;
-    bottom: 80px;
+    height: 15%;
+}
+#bt_container_bt{
+    height: 25%;
+    margin-top: 2%;
 }
 
 .p_cnfont{
