@@ -3,7 +3,7 @@
     margin: 0px;
 }
 body{
-    background-color: #fffff3;
+    background-color: #fffbeb;
 }
 #div_top{
     width: 100%;
@@ -16,7 +16,7 @@ body{
 #div_container{
     width: 91%;
     height: 1000px;
-    background-color: #fffff3;
+    background-color: #fffbeb;
     border-left: 1px solid #d3d5c8;
     border-right: 1px solid #d3d5c8;
     margin: auto;
