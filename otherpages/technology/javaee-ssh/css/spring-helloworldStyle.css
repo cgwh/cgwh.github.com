@@ -55,6 +55,9 @@ body{
 p a{
     color: #949494;
 }
+p a:hover{
+    color: #1b2d41;
+}
 
 #p_code_1_1,#p_code_1_2,#p_code_1_4,#p_code_2_1,#p_code_2_2,#p_code_2_7,
 #p_code_3_1,#p_code_3_2,#p_code_3_7,#p_code_4_1,#p_code_4_2,#p_code_4_13,

@@ -3,7 +3,7 @@
     margin: 0px;
 }
 body{
-    background-color: #fffff3;
+    background-color: #fffbeb;
 }
 #div_top{
     width: 100%;
@@ -18,7 +18,7 @@ body{
 /*    border: 1px solid #292929;*/
     border-left: 1px solid #d3d5c8;
     border-right: 1px solid #d3d5c8;
-    background-color: #fffff3;
+    background-color: #fffbeb;
     margin: auto;
     margin-top: 2%;
 }
