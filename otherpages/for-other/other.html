@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-CN">
+    <meta charset="utf-8">
+    <meta name="vierport" content="width = device-width,initial-scale=1,minimum-scale=1,maximum-scale=1"/>
+    <title>cg | work</title>
+<!--    <link rel="stylesheet" type="text/css" href="https://cgwh.github.io/stylesheets/workStyle.css">-->
+    <link rel="stylesheet" type="text/css" href="https://cgwh.github.io/stylesheets/otherStyle.css">
+<!--    <script src="https://cgwh.github.io/javascripts/workJS.js"></script>-->
+    <script src="https://cgwh.github.io/javascripts/other-js.js"></script>
+</head>
+<body>
+<div id="div_firstPage">
+    <a name="first"></a>
+    <div id="div_cover">
+        <canvas id="canvas"></canvas>
+        <div id="div_showHello">
+        </div>
+<!--
+        <div id="div_arrow">
+            <span id="span1"></span>
+            <span id="span2"></span>
+            <span id="span3"></span>
+            <span id="span4"></span>
+        </div>
+-->
+    </div>
+</div>
+<div id="div_secondPage">
+    <div id="div_menu" onclick="showMenu()">
+        <span></span>
+        <span></span>
+    </div>
+    <div id="div_menuBarCover">
+        <div id="div_menuBar">
+            <ul>
+                <li><a href="#first">我</a></li>
+                <li><a href="#hobby">爱</a></li>
+                <li><a href="#linkOther">你</a></li>
+
+            </ul>
+        </div>
+    </div>
+</div>
+<script>
+    var clickNum = 0;
+    function showMenu() {
+        var numHeight = window.innerHeight;
+        if(clickNum%2 == 0){
+            document.getElementById('div_menuBarCover').style.height = (3 * numHeight)/4 + 'px';
+            document.getElementById('div_menuBar').style.height = (2 * numHeight)/3 + 'px';
+        }else{
+            document.getElementById('div_menuBarCover').style.height = 0 + 'px';
+            document.getElementById('div_menuBar').style.height = 0 + 'px';
+        }
+        clickNum++;
+    }
+</script>
+</body>
+</html>
